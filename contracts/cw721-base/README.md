@@ -43,9 +43,9 @@ Once you are happy with the content, you can compile it to wasm via:
 
 ```
 RUSTFLAGS='-C link-arg=-s' cargo wasm
-cp ../../target/wasm32-unknown-unknown/release/cw20_base.wasm .
-ls -l cw20_base.wasm
-sha256sum cw20_base.wasm
+cp ../../target/wasm32-unknown-unknown/release/cw721_base.wasm .
+ls -l cw721_base.wasm
+sha256sum cw721_base.wasm
 ```
 
 Or for a production-ready (optimized) build, run a build command in the
